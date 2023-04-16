@@ -1,0 +1,18 @@
+.home__wrap {
+	display: grid;
+	grid-template-columns: repeat(2, 1fr);
+	grid-template-rows: repeat(2, 1fr);
+	justify-self: center;
+	border: 2px solid #000000;
+	margin: 20px;
+}
+
+.comp__description {
+	text-transform: capitalize;
+}
+
+.color__component {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
